@@ -1,0 +1,143 @@
+:root{
+    --Transparent-white : hsla(0, 0%, 100%, 0.75); /*(paragraphs)*/
+    --Very-light-gray: hsl(0, 0%, 95%); /*(background-headings-buttons)*/
+
+    --font-1: 'Big Shoulders Display', sans-serif;
+    --font-2: 'Lexend Deca', sans-serif;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+   
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: 'Outfit',Arial, Helvetica, sans-serif; 
+    
+}
+
+
+.content{
+    width: 320px;
+    height: auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 68px auto;
+    
+}
+
+
+.images{
+    position: relative;
+    width: 85%;
+    width: 272px;
+    height: 272px;
+    display: flex;
+    margin: 24px auto 0;
+  
+    
+}
+
+.image{
+    border-radius: 12px 12px 0 0;
+}
+
+
+.reproductor{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+audio{
+   width: 272px;
+   height: 20px;
+   
+   
+}
+
+.title{
+    font-size: 3em;
+    text-align: center;
+    color:var(--Transparent-white);
+    padding: 0 24px 0 24px ;
+}
+.yochiry{
+    font-size: 1em;
+    text-align: center;
+    padding: 0 24px 0 24px ;
+    color: hsl(178, 100%, 50%);
+}
+
+.disponible{
+    font-size: 0.80em;
+    text-align: center;
+    padding: 0 24px 0 24px ;
+    color:var(--Transparent-white);
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+   padding-bottom: 30px;
+}
+
+.btn3{
+    font-family: var(--font-2);
+    font-size: 0.95em;
+    padding: 13px 25px;
+    margin: 25px 50px 0 50px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-color: var(--Transparent-white);
+    text-decoration: none;
+    color:  hsl(217, 54%, 11%);
+
+}
+
+.btn3:hover{
+    cursor: pointer;
+
+    color: var(--Transparent-white);
+    border: solid 2px var(--Transparent-white);
+    background: none;
+    
+}
+
+
+
+
+
+.attribution {     
+    font-size: 11px; 
+    text-align: center; 
+    color: white;
+
+}
+
+
+.attribution a {
+    color: hsl(178, 100%, 50%);
+
+}
+
+
+@media(max-width: 620px){
+    .content{
+        margin: 70px auto;
+    }
+}
